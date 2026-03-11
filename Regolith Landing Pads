@@ -1,0 +1,39 @@
+Alright—here's the tight, technical version. Same core, just stripped down.  
+
+**Lunar Landing Pad & Road Bootstrap Plan**  
+Symbiotic with MoonBaseAlpha v1.md (March 11, 2026): ISRU-first, dust-minimized, scales to 1k–100k citizens + 100 TW compute.  
+
+**Phase 1: Site Prep (Months 1–3)**  
+- Rover swarm: LIDAR topo map (<1 cm), excavate 0.5 m loose regolith (ρ = 1.6 g/cm³).  
+- Berms: 2–3 m high, 30–45° slope, traps 90% ejecta (Metzger CFD-DEM).  
+
+**Phase 2: Landing Pad (Months 4–8)**  
+- Method: Microwave-sintered tiles (inner zone: 1,050–1,300°C, glassy-ceramic, 30–90 MPa).  
+- Energy: 2.4 kWh/kg → 50 m dia × 0.5 m pad (~2,000 t regolith) = 4.3–5.3 GWh (Tesla solar phased).  
+- Tiles: Hex 2 m sides, 0.3–0.5 m thick, interlocking.  
+- Bearing capacity (Terzaghi, lunar g = 1.62 m/s²):  
+  q_ult = c N_c + γ D_f N_q + 0.3 γ B N_γ  
+  (c = 500 kPa, φ = 45°, γ = 4.05 kPa/m, N_c ≈ 6.2, N_q ≈ 20, N_γ ≈ 30)  
+  q_ult ≈ 3,306 kPa → q_safe (FS=3) ≈ 1,100 kPa (>10 t lander).  
+
+**Phase 3: Access Roads (Months 6–12)**  
+- 3–5 m wide, 0.2–0.4 m thick, compacted (ρ = 1.8–2.0 g/cm³) + microwave-sintered.  
+- 1 km path: ~2,700–3,000 t regolith, 6–7 GWh energy.  
+- q_safe > 50 kPa (φ >40°, light sinter).  
+
+**Swarm & Ops**  
+- 10–20 Optimus/excavators (2 t Earth mass).  
+- Magnetic Fe beneficiation → 2× sintering speed, 50% less power.  
+- Grok 4.2: LIDAR mapping, energy alloc, thermal QC.  
+
+**Integration**  
+- Enables 30+ Starships → solar, Prufrock, greenhouses, cattle, methane.  
+- Zero waste: Fines → soil; heat → habitats.  
+- Dust control: Protects clover domes, mini-magnetosphere.  
+
+**Risks**  
+- Energy: Stage solar + methane backup.  
+- Cracking: Pyrometer feedback.  
+- Regolith var: In-situ shear tests.  
+
+Demo pad by 2027–2028. Locks Circle bootstrap.
